@@ -9,7 +9,6 @@ def solution(n, words):
                 if words[count-1][-1] != words[count][0]:
                     return num+1, i+1
             if word in words[0:startIndex + secIndex]:
-                print("dfsdf")
                 return num+1, i+1
             secIndex += 1
             count += 1 
